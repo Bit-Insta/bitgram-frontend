@@ -1,16 +1,49 @@
-# React + Vite
+# 📸 Bitgram (Instagram Clone) - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bitgram 프로젝트의 프론트엔드 저장소입니다.
+**Feature-Sliced Design(기능 중심 설계)** 철학을 바탕으로 개발되고 있습니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## React Compiler
+| Category             | Technology                                |
+| -------------------- | ----------------------------------------- |
+| **Framework**        | React + Vite                              |
+| **Language**         | JavaScript (ES6+)                         |
+| **Styling**          | Tailwind CSS                              |
+| **State Management** | Zustand (Global), TanStack Query (Server) |
+| **Network**          | Axios                                     |
+| **Package Manager**  | npm                                       |
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🏃‍♂️ Getting Started (설치 및 실행)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+프로젝트를 로컬 환경에서 실행하는 방법입니다.
+
+**1. 저장소 클론 (Clone)**
+
+```bash
+git clone [https://github.com/Bit-gram/bitgram-frontend.git](https://github.com/Bit-gram/bitgram-frontend.git)
+cd bitgram-frontend
+```
+
+**2. 의존성 설치 (Install)**
+
+```bash
+npm install
+```
+
+**3. 환경 변수 설정 (.env) 프로젝트 루트에 .env 파일을 생성하고 아래 내용을 추가하세요.**
+
+```bash
+Properties
+VITE_API_BASE_URL=http://localhost:8080/api/
+```
+
+**4. 개발 서버 실행 (Run)**
+
+```bash
+npm run dev
+```
